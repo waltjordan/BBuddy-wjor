@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b5ab57a6a53c43fa915d4d82cf1ebbda {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_b5ab57a6a53c43fa915d4d82cf1ebbda" ></div>
+        
+</body>
+<script>    
+    
+            var map_b5ab57a6a53c43fa915d4d82cf1ebbda = L.map(
+                "map_b5ab57a6a53c43fa915d4d82cf1ebbda",
+                {
+                    center: [37.7783, -119.4179],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3858f2bf148f4ac4852adc734d2e4f2b = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_b5ab57a6a53c43fa915d4d82cf1ebbda);
+        
+    
+            var marker_ef5ec52a61da4968a22ede4af6a30b1c = L.marker(
+                [36.7783, -119.4179],
+                {}
+            ).addTo(map_b5ab57a6a53c43fa915d4d82cf1ebbda);
+        
+    
+            marker_ef5ec52a61da4968a22ede4af6a30b1c.bindTooltip(
+                `<div>
+                     Cali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a63ec6e08574ec7a182a8054b41cb1b = L.marker(
+                [34.0522, -118.2437],
+                {}
+            ).addTo(map_b5ab57a6a53c43fa915d4d82cf1ebbda);
+        
+    
+            marker_9a63ec6e08574ec7a182a8054b41cb1b.bindTooltip(
+                `<div>
+                     LA
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_59efaa587b7c4b1bb0f5755918169b76 = L.marker(
+                [36.7783, -119.4179],
+                {}
+            ).addTo(map_b5ab57a6a53c43fa915d4d82cf1ebbda);
+        
+    
+            marker_59efaa587b7c4b1bb0f5755918169b76.bindTooltip(
+                `<div>
+                     Cali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9894da3f45844b659ad5bf26052d162f = L.marker(
+                [36.7783, -119.4179],
+                {}
+            ).addTo(map_b5ab57a6a53c43fa915d4d82cf1ebbda);
+        
+    
+            marker_9894da3f45844b659ad5bf26052d162f.bindTooltip(
+                `<div>
+                     Cali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b47c004278b047a7ab8f776888e59c3b = L.marker(
+                [36.7783, -119.4179],
+                {}
+            ).addTo(map_b5ab57a6a53c43fa915d4d82cf1ebbda);
+        
+    
+            marker_b47c004278b047a7ab8f776888e59c3b.bindTooltip(
+                `<div>
+                     Cali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34d61d79c0c64c49b42987251f076498 = L.marker(
+                [36.7783, -119.4179],
+                {}
+            ).addTo(map_b5ab57a6a53c43fa915d4d82cf1ebbda);
+        
+    
+            marker_34d61d79c0c64c49b42987251f076498.bindTooltip(
+                `<div>
+                     Cali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4887bf78412541a082422dc0cc3c7b0e = L.marker(
+                [36.7783, -119.4179],
+                {}
+            ).addTo(map_b5ab57a6a53c43fa915d4d82cf1ebbda);
+        
+    
+            marker_4887bf78412541a082422dc0cc3c7b0e.bindTooltip(
+                `<div>
+                     Cali
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_b5ab57a6a53c43fa915d4d82cf1ebbda.fitBounds(
+                [[34.0522, -119.4179], [36.7783, -118.2437]],
+                {"padding": 0.5}
+            );
+        
+</script>
