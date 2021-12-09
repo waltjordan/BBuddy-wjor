@@ -41,3 +41,6 @@ class mapView():
         window.setWindowFlags(QtCore.Qt.WindowStaysOnTopHint)
         window.show()
         app.exec_()
+
+if __name__ == "__main__":
+    mapView().loadMap()
